@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css" >
-    <title>Victor</title>
+    <meta charset="utf-8" />
+    <title>CreaLaser - Taller de corte laser</title>
+    <meta name="description" content="Taller de corte laser en Hermosillo Sonora" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="CreaLaser" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://crealaser.mx/" />
+    <meta property=”og:description” content= "Taller de corte laser"  />
+    <meta property="og:image" content="" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/img/favicon-16x16.png" />
+    <link rel="manifest" href="./public/site.webmanifest" />
+    <link rel="mask-icon" href="./public/img/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- <link href="/stylesheet.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>Hello world</h1>
-    <img src="public/img/phone.png" alt="" />
+    <div class="container h-screen mx-auto px-4 max-w-screen-lg">
+      <header class="flex mt-8 md:mb-4">
+        <div>
+          <img src="./public/img/logo.svg" class="md:h-24 md:w-24 w-16 h-16" alt="" />
+        </div>
+        <div class="pl-8 md:pt-4">
+          <h1 class="text-4xl font-bold uppercase md:mb-2">CreaLaser</h1>
+          <h2
+            class="text-xs font-semibold uppercase mb-6 text-center md:text-left line"
+          >
+            Especialistas en corte laser
+          </h2>
+        </div>
+      </header>
+      <main>
+        <div class="h-32 md:h-64 bg-gray-300 mb-4"></div>
+        <p class="text-xl mb-8">
+          Somos un taller especializado en corte y grabado láser, contamos con
+          la tecnología necesaria para crear desde artículos decorativos hasta
+          piezas complejas en tres dimensiones.
+        </p>
+
+        <div class="">
+          <p class="mb-4">
+            Imprimimos en mdf, acrílico y cartón además grabamos en vidrio,
+            foam, vaqueta y piel en general.
+          </p>
+          <p class="mb-4">
+            Algunos de nuestros productos decorativos que tenemos siempre en
+            existencia son: llaveros, cajas logos de empresas, diseños armables
+            en 3d, reloj de pared, lámparas con luz led ,aretes así como también
+            letreros para el hogar y negocios.
+          </p>
+          <p class="mb-4">
+            El periodo de entrega es de 1 a 3 días a partir de que se realiza el
+            pedido tenemos entregas a todo el país con un costo de $150 pesos en
+            3 Kg máximo por paquete.
+          </p>
+        </div>
+      </main>
+      <footer class="mt-8 pb-8 md:flex justify-between">
+        <div class="md:m-0 mb-8">
+          <h3 class="font-semibold uppercase">Contacto</h3>
+          <p>
+            <a
+              href="tel:6623458069"
+              class="underline hover:text-blue-400 text-orange-800 focus:outline-none focus:ring"
+              >(662)345-8069</a
+            >
+          </p>
+          <p>
+            <a
+              href="mailto:creaarte@gmail.com"
+              class="underline hover:text-blue-400 text-orange-800 focus:outline-none focus:ring"
+              >creaarte@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="md:m-0 mb-8">
+          <h3 class="font-semibold uppercase">Direccion</h3>
+          <address class="not-italic">
+            <a
+              href="https://goo.gl/maps/wAGomyxuH6ERsZeu5"
+              class="underline hover:text-blue-400 text-orange-800 focus:outline-none focus:ring"
+            >
+              San Nicolás 49<br />
+              Villa del Cortes<br />
+              83190 Hermosillo, Son.<br />
+              México
+            </a>
+          </address>
+        </div>
+        <div class="md:m-0 mb-8">
+          <h3 class="font-semibold uppercase">Horario</h3>
+          <p>Lunes a Viernes</p>
+          <p>10:00 - 18:00</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
